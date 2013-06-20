@@ -16,6 +16,7 @@ public class Main {
         File template = new File(workingDirectory.getAbsolutePath() + File.separator + "invoiceTemplate.tex");
 
         File tempDir = new File(workingDirectory.getAbsolutePath() + File.separator + "temp");
+
         if (!tempDir.isDirectory()) {
             tempDir.mkdir();
         }
